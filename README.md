@@ -1,7 +1,5 @@
 # Heart Disease Risk Prediction
 
-This project is a machine learning capstone project developed as part of the **ML Zoomcamp** program.
-
 The goal of the project is to predict the probability of heart disease in patients based on clinical measurements, and to compare the performance of different classical machine learning models.
 
 ---
