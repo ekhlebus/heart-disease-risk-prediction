@@ -79,25 +79,34 @@ ROC-AUC was used as the primary metric due to its robustness to class imbalance 
 .
 ├── data/
 │   └── heart.csv
-├── notebooks/
-│   └── exploration.ipynb
+├── notebook.ipynb
 ├── train.py
 ├── predict.py
 ├── model.bin
 ├── requirements.txt
 └── README.md
+```
 
-How to Run the Project
-1. Install dependencies
-pip install -r requirements.txt
 
-2. Train the model
-python train.py
+## How to Run the Project
+1. Make sure you have Python 3.9 or newer installed. Before work check your Python version:
+```python3 --version```
 
-3. Make predictions
-python predict.py
+2. Create a virtual environment to keep project dependencies isolated and activate it:
+```python -m venv venv```
+```venv\Scripts\activate```
+After activation, you should see (venv) in your terminal.
 
-📌 Key Takeaways
+3. Install dependencies
+```pip install -r requirements.txt```
+
+4. Train the model
+```python train.py```
+
+5. Make predictions
+```python predict.py```
+
+## 📌 Key Takeaways
 
 Logistic regression provides a strong baseline with interpretable coefficients
 
@@ -107,6 +116,6 @@ Random Forest achieved the best overall performance in this dataset
 
 The project demonstrates how classic ML models can be applied to healthcare risk prediction problems
 
-📎 Notes
+## 📎 Notes
 
 This project is designed for educational purposes and does not constitute medical advice.
