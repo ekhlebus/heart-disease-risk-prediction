@@ -1,0 +1,19 @@
+# =====================
+# Python virtual environments
+# =====================
+heart_risk_env/
+.venv/
+venv/
+env/
+
+# =====================
+# Python cache files
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+
+# =====================
+# Jupyter Notebook files
+# =====================
+.ipynb_checkpoints/

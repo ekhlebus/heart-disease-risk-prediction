@@ -93,9 +93,15 @@ ROC-AUC was used as the primary metric due to its robustness to class imbalance 
 ```python3 --version```
 
 2. Create a virtual environment to keep project dependencies isolated and activate it:
-```python -m venv venv```
-```venv\Scripts\activate```
-After activation, you should see (venv) in your terminal.
+```python3 -m venv heart_risk_env```
+
+* Activate heart_risk_env on Windows:
+    ```heart_risk_env\Scripts\activate```
+
+* Activate heart_risk_env on macOS / Linux:
+    ```source heart_risk_env/bin/activate```
+
+After activation, you should see (heart_risk_env) in your terminal.
 
 3. Install dependencies
 ```pip install -r requirements.txt```
